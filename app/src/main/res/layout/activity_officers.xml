@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Moharrier.Officers"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#fff"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Crime Reporting"
+            android:textColor="#FFC107"
+            android:textSize="24dp"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/a"
+
+            app:civ_border_width="4dp"
+            app:civ_border_color="#FFC107"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usama"
+            android:layout_below="@+id/profile_image"
+            android:layout_marginTop="15dp"
+            android:textColor="#000"
+            android:id="@+id/udf"
+            android:textSize="30dp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/udf"
+        android:src="@mipmap/b"
+
+        >
+
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_location_on_black_24dp"
+            android:layout_marginLeft="80dp"
+            >
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:layout_marginTop="1dp"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            >
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_message_black_24dp"
+            android:layout_marginLeft="80dp"
+            >
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:layout_marginTop="1dp"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            >
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="170dp"
+        android:background="#FFC107"
+        >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:gravity="center">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Designation"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:gravity="center">
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Waseem"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="#FFC107"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ASI"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:gravity="center"
+                android:background="#FFC107"
+            >
+            </TextView>
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M-Usama"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="#FFC107"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Insepector"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:gravity="center"
+                android:background="#FFC107"
+                >
+            </TextView>
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Talha Khan"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="#FFC107"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sub-Inspector"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:gravity="center"
+                android:background="#FFC107"
+                >
+            </TextView>
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+
+
+
+    </LinearLayout>

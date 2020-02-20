@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "182780846648",
+    "firebase_url": "https://crime-reporting-c77a8.firebaseio.com",
+    "project_id": "crime-reporting-c77a8",
+    "storage_bucket": "crime-reporting-c77a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182780846648:android:10e830b52a6f61f8323ccd",
+        "android_client_info": {
+          "package_name": "com.example.crimereporting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182780846648-ke47s9e4plo6v4t97umpjd9khj1qv4ac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.crimereporting",
+            "certificate_hash": "a34491855175e6799431045ea432f250f95274dd"
+          }
+        },
+        {
+          "client_id": "182780846648-thrhbemtcr3jopul5428dvgk21dtr43v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvaRIcYbtB_HR5IpuHBrxrBlDGZyjyhaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182780846648-thrhbemtcr3jopul5428dvgk21dtr43v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

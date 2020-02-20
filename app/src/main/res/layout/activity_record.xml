@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#fff"
+    tools:context=".SHO.Record">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Crime Reporting"
+            android:textColor="#FFC107"
+            android:textSize="24dp"></TextView>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record Statistics"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="#FFC107"
+        ></TextView>
+
+    <technolifestyle.com.imageslider.FlipperLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/flippe">
+    </technolifestyle.com.imageslider.FlipperLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Number of FIR 0"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFC107"
+        android:layout_marginLeft="50dp"
+        android:textSize="30dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Number of User"
+        android:textColor="#FFC107"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="30dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Number of Complaint"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFC107"
+        android:textSize="27dp"
+        ></TextView>
+
+
+</LinearLayout>

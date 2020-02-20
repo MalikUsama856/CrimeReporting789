@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.crimereporting">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/k"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Phone"></activity>
+        <activity android:name=".SMSA" />
+        <activity android:name=".DPO.DPO_Dashboard" />
+        <activity android:name=".SHO.Record" />
+        <activity android:name=".SHO.SHO_Dashboard" />
+        <activity android:name=".Moharrier.Officers" />
+        <activity android:name=".Moharrier.Moharrier_Dashboard" />
+        <activity android:name=".Question" />
+        <activity android:name=".MySubmission" />
+        <activity android:name=".ReportNow" />
+        <activity android:name=".Complaint" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".Sign" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
